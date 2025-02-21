@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import {useContext, useState} from "react";
 import {Link} from "react-router-dom";
 import {Button, Card, IconButton, Tooltip} from "@mui/material";
-import CarInfoTable from "./CarInfoTable";
 import AccordionComponent from "../../components/AccordionComponent";
 import {BrandContext} from "../../context/BrandStore";
 
